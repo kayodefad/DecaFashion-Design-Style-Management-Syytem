@@ -145,7 +145,7 @@ h1 {
   font-size: 1.3em;
   max-width: 570px;
   margin: 0 auto;
-  display: none;
+  /* display: none; */
 }
 
 #fetchstyles {
