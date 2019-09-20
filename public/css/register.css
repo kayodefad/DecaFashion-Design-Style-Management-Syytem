@@ -1,0 +1,31 @@
+body {
+    background: #d3cece;
+    font-family: 'EB Garamond', serif;
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive; 
+}
+
+form {
+    border: 3px solid #fff;
+    padding: 25px; 
+    background: #ffffff;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    max-width: 570px;
+    margin: 0 auto;
+}
+
+#error-message {
+    display: none;
+}
+
+#successregister {
+    display: none;
+}
+
+#taketologin {
+    display: none;
+}
+

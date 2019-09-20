@@ -1,0 +1,156 @@
+body {
+  font-family: 'EB Garamond', serif;
+}
+#navigation {
+  padding: 20px 40px 20px 40px;
+  background: #2c2c2c;
+  color: #ffffff;
+  /* position: fixed; */
+  width: 100%;
+  /* overflow: hidden; */
+  top: 0;
+}
+
+#icon {
+  font-family: 'Kaushan Script', cursive;
+  color: #ffffff;
+  font-style: italic;
+}
+.collapse a {
+  color: #ffffff;
+}
+
+.collapse a:hover {
+  color: #4e4848;
+}
+
+#navbarSupportedContent {
+  color: white;
+}
+
+#navigation input[type=search] {
+  /* float: left; */
+  padding: 6px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 8px;
+  margin-right: 16px;
+  margin-right: 16px;
+  font-size: 17px;
+  width: 700px;
+  outline: none;
+}
+
+#navigation .navbar-brand {
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 80px;
+}
+
+.nav-item {
+  font-size: 1.3em;
+  color: white;
+}
+
+.free-delivery {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.fashpic {
+  background: #30834b url('../images/female2.jpg') no-repeat;
+  background-size: cover;
+  height: 70%;
+  margin: 0 60px 0 60px;
+}
+.shopnow a {
+  text-decoration: none;
+  color: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 3em;
+  transform: translate(-50%, -50%);
+  border: 3px solid #000000;
+  background: #ffffff;
+  padding: 0 40px 0 40px;
+}
+
+.shopnow a:hover {
+  color: #fff;
+  background: #000;
+}
+
+
+/* Footer */
+footer {
+  background: #ebe6e6;
+  margin: 60px 0 0 0;
+  padding: 40px 0 20px 0;
+}
+
+footer p {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+}
+
+footer li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.copyright {
+  background: #bebbbb;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+.t-shirt p{
+  width: 317px;
+}
+
+/* The add a new style button */
+h1 {
+  font-family: 'Kaushan Script', cursive; 
+}
+
+#addnewform {
+  border: 3px solid #fff;
+  padding: 25px; 
+  background: #ffffff;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  max-width: 570px;
+  margin: 0 auto;
+  display: none;
+}
+
+#updatedetails {
+  border: 3px solid #fff;
+  padding: 25px; 
+  background: #ffffff;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  max-width: 570px;
+  margin: 0 auto;
+  display: none;
+}
+
+#fetchstyles {
+  font-size: 1.3em;
+  max-width: 570px;
+  margin: 0 auto;
+  display: none;
+}

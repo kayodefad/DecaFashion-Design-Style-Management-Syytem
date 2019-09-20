@@ -1,0 +1,173 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DecaFashion</title>
+    <script src="https://kit.fontawesome.com/8e9e6d0a39.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Kaushan+Script|Playfair+Display:400,400i,700,700i&display=swap" rel="stylesheet"></head>
+<body>
+  <header>
+    <nav id="navigation" class="navbar navbar-expand-lg">
+        <a class="navbar-brand" id="icon" href="#">DecaFashion</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span style="color: white; font-size: 35px" class="mt-0"><i class="fas fa-bars"></i> </span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item active mr-5">
+              <a class="nav-link" href="#">WOMEN</a>
+            </li>
+            <li class="nav-item" style="padding-right: 50px">
+              <a class="nav-link" href="#">MEN</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0 mr-auto">
+            <input class="form-control mr-sm-2" id = 'search' type="search" placeholder="Search for items, brands and inspiration" aria-label="Search">
+          </form>
+          <ul class="navbar-nav">
+            <li class="nav-item active mr-5">
+              <a class="nav-link" href,="#">WELCOME &nbsp; USER</a>
+            </li>
+            </ul>
+        </div>
+      </nav>
+  </header>
+
+  <div class="free-delivery">
+    FREE DELIVERY WORLDWIDE
+  </div>
+  <div class="fashpic">
+    <div class="shopnow"><a href="#">SHOP NOW</a></div>
+  </div>
+
+  <!-- <div class="container mt-5">
+    <div class="row">
+      <div class="col t-shirt mb-5">
+        <img src="images/adidas.jpeg" alt="">
+        <p class="font-weight-bold mt-3">Metrosymth</p>
+        <p>adidas Originals essentials T-Shirt with logo embroidery in khaki</p>
+        <span class="font-weight-bold" style="margin-right: 35px">$19.95</span>
+        <a href="index3.html?id="><button type="button" class="btn btn-info" id="fetchitems">Fetch Details</button></a>
+        <button type="button" class="btn btn-success edit-style">Edit</button>
+        <button type="button" class="btn btn-dark remove-style">Remove</button>
+      </div> 
+    </div>
+</div> -->
+
+    <div class="container">
+      <button type="button" class="btn btn-success mt-5" id="triggerform">Add New Item</button>
+    </div> 
+
+  <div class="container"  id="addnewform">
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text"  class="form-control" name="name" id="name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+          <label for="style">Style:</label>
+          <input type="text"  class="form-control" name="style" id="style" placeholder="Enter New Style">
+        </div>
+        <div class="form-group">
+            <label for="price">Price:</label>
+            <input type="number"  class="form-control" name="price" id="price" placeholder= 0>
+          </div>
+          <div class="form-group">
+            <label for="image">Image:</label>
+            <input type="text"  class="form-control" name="image" id="image" placeholder="Enter Image Name">
+          </div>
+        <button type="button" class="btn btn-success" id="addcollection">ADD TO COLLECTION</button>
+    </form>
+  </div>
+
+  <!-- <div class="container">
+    <button type="button" class="btn btn-success mt-5" id="collection">Collection</button>
+  </div> -->
+  
+  <div class="container mt-5">
+      <div class="row" id="add">
+        
+      </div>
+  </div> 
+
+  <!-- <div class="container">
+    <button type="button" class="btn btn-success mt-5" id="toggleupdate">Update Collection</button>
+  </div> 
+   -->
+
+<div class="container"  id="updatedetails">
+  <form>
+    <div class="form-group">
+      <label for="updatename">Name:</label>
+      <input type="text"  class="form-control" name="updatename" id="updatename" placeholder="Enter your name">
+    </div>
+    <div class="form-group">
+        <label for="updatestyle">Style:</label>
+        <input type="text"  class="form-control" name="updatestyle" id="updatestyle" placeholder="Enter New Style">
+      </div>
+      <div class="form-group">
+          <label for="updateprice">Price:</label>
+          <input type="number"  class="form-control" name="updateprice" id="updateprice" placeholder= 0>
+        </div>
+        <div class="form-group">
+          <label for="updateimage">Image:</label>
+          <input type="text"  class="form-control" name="updateimage" id="updateimage" placeholder="Enter Image Name">
+        </div>
+      <button type="button" class="btn btn-success" id="updatecollection">UPDATE COLLECTION</button>
+  </form>
+</div>
+      
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>HELP &amp; INFORMATION</p>
+          <ul>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Track Order</a></li>
+            <li><a href="#">Delivery &amp; Returns</a></li>
+            <li><a href="#">10% Discount</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <p>ABOUT DECAFASHION</p>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers at DecaFashion</a></li>
+            <li><a href="#">Corporate Responsibility</a></li>
+            <li><a href="#">Investors Site</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <p>MORE FROM DECAFASHION</p>
+          <ul>
+            <li><a href="#">DecaFashion Marketplace</a></li>
+            <li><a href="#">Gift Vouchers</a></li>
+            <li><a href="#">Mobile and DecaFashion Apps</a></li>
+            <li><a href="#">Black Friday</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="copyright">
+      <small>Copyright &copy; 2019
+          <b>Oluwakayode Design.</b>
+      </small>
+    </div>
+  
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

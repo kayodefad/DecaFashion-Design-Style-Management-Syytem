@@ -1,0 +1,58 @@
+{
+  "stylists": [
+    {
+      "id": 1,
+      "name": "Fadoju Kayode",
+      "shortname": "Fadoju_Kayode",
+      "email": "fadojuk@gmail.com",
+      "password": "imoleayo",
+      "style": "adidas Originals essentials T-Shirt with logo embroidery in khaki",
+      "image": "adidasOriginalsEssentials",
+      "price": 10
+    },
+    {
+      "id": 2,
+      "name": "Damoye Temidayo",
+      "shortname": "Damoye_Temidayo",
+      "email": "damoye.temidayo@gmail.com",
+      "password": "damson94",
+      "style": "adidas Originals essentials T-Shirt with logo embroidery in khaki",
+      "image": "adidasOriginalsEssentials",
+      "price": 15
+    },
+    {
+      "id": 3,
+      "name": "Ogundepo Odunayo",
+      "shortname": "Ogundepo_Odunayo",
+      "email": "ogundepo.odunayo@gmail.com",
+      "password": "jude",
+      "style": "adidas Originals essentials T-Shirt with logo embroidery in khaki",
+      "image": "adidasOriginalsEssentials",
+      "price": 20
+    }
+  ],
+  "addedstyles": [],
+  "registered": [
+    {
+      "firstName": "Boluwatife",
+      "lastName": "Quadri",
+      "email": "tifenisolare@gmail.com",
+      "password": "tifenisolare",
+      "id": 1
+    },
+    {
+      "firstName": "Obianuju",
+      "lastName": "Nwashili",
+      "email": "nwashiliobianuju@gmail.com",
+      "password": "obianuju",
+      "id": 2
+    },
+    {
+      "firstName": "Oluwakayode",
+      "lastName": "Fadoju",
+      "email": "fadojuk@gmail.com",
+      "password": "imoleayo",
+      "id": 3
+    }
+  ]
+}
