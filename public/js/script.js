@@ -72,7 +72,8 @@ $(document).ready(function() {
                 id = parseInt(id);
 
                 
-                if (path === "/assets/index3.html") {
+                if (path === "/public/index3.html") {
+                    
                     $.get(`http://localhost:3000/addedstyles/${id}`, function(data) {
                         console.log(data);
 

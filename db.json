@@ -31,7 +31,22 @@
       "price": 20
     }
   ],
-  "addedstyles": [],
+  "addedstyles": [
+    {
+      "name": "Oluwakayode Fadoju",
+      "style": "New Jeans",
+      "price": "3",
+      "image": "adidas",
+      "id": 1
+    },
+    {
+      "name": "Fadoju Ayomitunde",
+      "style": "Striped T-shirts",
+      "price": "56",
+      "image": "nike",
+      "id": 2
+    }
+  ],
   "registered": [
     {
       "firstName": "Boluwatife",
